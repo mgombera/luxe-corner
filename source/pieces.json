@@ -7,8 +7,10 @@
   "ref": "5990/1R-001",
   "price": null,
   "images": [
-   "img/patek-5990-1r-2.jpg",
-   "img/patek-5990-1r-1.jpg"
+   "img/patek-5990-1r-v2-1.jpg",
+   "img/patek-5990-1r-v2-2.jpg",
+   "img/patek-5990-1r-v2-3.jpg",
+   "img/patek-5990-1r-v2-4.jpg"
   ],
   "alt": "Patek Philippe Nautilus 5990/1R-001 in rose gold with blue dial",
   "spec": [
@@ -135,7 +137,7 @@
    ],
    [
     "Dial",
-    "Black champlevé enamel, hand-engraved white gold arabesques"
+    "Black champlev\u00e9 enamel, hand-engraved white gold arabesques"
    ],
    [
     "Movement",
@@ -331,7 +333,7 @@
   "images": [
    "img/vc-82172-1.jpg"
   ],
-  "alt": "Vacheron Constantin Traditionnelle 270th anniversary in platinum with silver guilloché dial",
+  "alt": "Vacheron Constantin Traditionnelle 270th anniversary in platinum with silver guilloch\u00e9 dial",
   "spec": [
    [
     "Year",
@@ -355,7 +357,7 @@
    ],
    [
     "Dial",
-    "Silver, hand-guilloché with a Maltese cross pattern, small seconds at 6"
+    "Silver, hand-guilloch\u00e9 with a Maltese cross pattern, small seconds at 6"
    ],
    [
     "Movement",

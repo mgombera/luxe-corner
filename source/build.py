@@ -148,7 +148,7 @@ def build():
     <div class="actions"><a class="btn" href="/collection">View the collection</a><a class="btn ghost" href="/sell-or-trade">Sell or trade a watch</a></div>
   </div>
   <figure class="hero-plate">
-    <a href="/watches/{hero['slug']}"><img src="/img/patek-5990-1r-2.jpg" alt="{E(hero['alt'])}" width="1400" height="1018" fetchpriority="high"></a>
+    <a href="/watches/{hero['slug']}"><img src="/img/patek-5990-1r-v2-2.jpg" alt="{E(hero['alt'])}" width="1400" height="932" fetchpriority="high"></a>
     <figcaption><span><b>Patek Philippe</b> &nbsp;Nautilus Travel Time Chronograph</span><span class="ref">Ref. 5990/1R-001</span></figcaption>
   </figure>
 </div>
