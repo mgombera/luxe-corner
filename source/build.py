@@ -115,7 +115,7 @@ def page(path, title, description, body, current=None, image=None, jsonld=None, 
 def card(p):
     r = ref_text(p) or "&nbsp;"
     return f"""<a class="card" href="/watches/{p['slug']}" data-cat="{p['cat']}" data-maker="{E(p['maker'])}">
-  <div class="frame"><img src="/{p['images'][0]}" alt="{E(p['alt'])}" loading="lazy" decoding="async"></div>
+  <div class="frame"><img src="/{p.get('card') or p['images'][0]}" alt="{E(p['alt'])}" loading="lazy" decoding="async"></div>
   <div class="meta"><span class="brandline">{E(p['maker'])}</span><span class="model">{E(p['model'])}</span>
   <span class="row"><span class="ref">{E(r) if r != '&nbsp;' else r}</span><span>{price_text(p)}</span></span></div>
 </a>"""

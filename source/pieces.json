@@ -7,10 +7,10 @@
   "ref": "5990/1R-001",
   "price": null,
   "images": [
+   "img/patek-5990-1r-v2-4.jpg",
    "img/patek-5990-1r-v2-1.jpg",
    "img/patek-5990-1r-v2-2.jpg",
-   "img/patek-5990-1r-v2-3.jpg",
-   "img/patek-5990-1r-v2-4.jpg"
+   "img/patek-5990-1r-v2-3.jpg"
   ],
   "alt": "Patek Philippe Nautilus 5990/1R-001 in rose gold with blue dial",
   "spec": [
@@ -54,7 +54,8 @@
     "Bracelet",
     "18k rose gold with folding clasp"
    ]
-  ]
+  ],
+  "card": "img/patek-5990-1r-v2-1.jpg"
  },
  {
   "slug": "patek-5004j",
