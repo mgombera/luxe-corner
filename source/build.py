@@ -5,7 +5,7 @@ from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
-SITE = "https://luxecornerboutique.com"
+SITE = "https://www.luxecornerboutique.com"
 IG_HANDLE = "waitlistforlife"
 IG_URL = f"https://www.instagram.com/{IG_HANDLE}/"
 IG_DM = f"https://ig.me/m/{IG_HANDLE}"
