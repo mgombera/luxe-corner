@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://luxecornerboutique.com/sitemap.xml
