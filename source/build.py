@@ -32,6 +32,9 @@ CSS += """
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:16px;top:16px;z-index:50;background:var(--case);padding:.6em 1em}
 [hidden]{display:none!important}
+.hero-plate img,.band img{height:auto}
+.hero-plate img{aspect-ratio:1/1;object-position:50% 55%}
+
 html,body{margin:0}
 """
 
