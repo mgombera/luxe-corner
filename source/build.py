@@ -104,7 +104,7 @@ def page(path, title, description, body, current=None, image=None, jsonld=None, 
       <div><h4>Explore</h4><ul><li><a href="/collection">Collection</a></li><li><a href="/sell-or-trade">Sell or trade</a></li><li><a href="/about">About</a></li></ul></div>
       <div><h4>Help</h4><ul><li><a href="/contact">Contact</a></li><li><a href="/policies">Shipping, payment and inspection</a></li><li><a href="{IG_URL}" target="_blank" rel="noopener">Instagram @{IG_HANDLE}</a></li></ul></div>
     </div>
-    <div class="fine"><p>{E(BRANDS_DISCLAIMER)}</p><span>&copy; {date.today().year} The Luxe Corner LLC</span></div>
+    <div class="fine"><p>{E(BRANDS_DISCLAIMER)}</p><span>&copy; {date.today().year} The Luxe Corner, Inc.</span></div>
   </div>
 </footer>
 {extra_js}
@@ -126,7 +126,7 @@ def write(path, content):
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, "w").write(content)
 
-ORG_LD = {"@context": "https://schema.org", "@type": "Store", "name": "The Luxe Corner", "legalName": "The Luxe Corner LLC",
+ORG_LD = {"@context": "https://schema.org", "@type": "Store", "name": "The Luxe Corner", "legalName": "The Luxe Corner, Inc.",
           "url": SITE, "logo": SITE + "/logo.svg", "sameAs": [IG_URL],
           "description": "Fine watches and jewelry, privately offered."}
 
@@ -302,7 +302,7 @@ const cb=document.getElementById("copy-inq"),t=document.getElementById("inq");cb
     pol = f"""
 <div class="wrap page">
   <div class="page-head"><span class="eyebrow">Policies</span><h1>Shipping, payment and inspection</h1>
-  <p class="lede">These terms apply to every purchase from The Luxe Corner LLC.</p></div>
+  <p class="lede">These terms apply to every purchase from The Luxe Corner, Inc.</p></div>
   <div class="prose">
     <section id="shipping"><h2>Shipping</h2>
       <p>Every order ships fully insured for its full purchase price, and delivery requires a signature.</p>
